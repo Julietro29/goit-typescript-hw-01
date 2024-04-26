@@ -1,0 +1,22 @@
+@import url('/src/styles/variables.css');
+
+.btn {
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 8px;
+    border: 1px solid;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover,
+.bth:focus {
+    background-color: var(--btn-accent-color);
+}
